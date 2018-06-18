@@ -1,6 +1,4 @@
-# utsAlgorithms
-
-### Overview
+# Overview
 
 This C library provides rolling time series operators for unevenly spaced data, such as simple moving averages (SMAs), exponential moving averages (EMAs), and various rolling functions. The SMAs and EMAs support three different interpolation schemes.
 
@@ -9,4 +7,4 @@ The implementation details are described in "[Algorithms for Unevenly Spaced Tim
 
 # Installation
 
-Please see [README Linux](https://github.com/andreas50/utsAlgorithms/blob/master/README Linux.md) and [README Windows](https://github.com/andreas50/utsAlgorithms/blob/master/README Windows.md) for how to compile the code and run the test program under Linux and Windows, respectively.
+Please see [README_Linux](https://github.com/andreas50/utsAlgorithms/blob/master/README_Linux.md) and [README_Windows](https://github.com/andreas50/utsAlgorithms/blob/master/README_Windows.md) for how to compile the code and run the test program under Linux and Windows, respectively.
