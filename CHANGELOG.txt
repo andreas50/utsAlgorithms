@@ -1,0 +1,34 @@
+2018-06-18
+-) Updated READMEs
+-) Release code on GitHub
+
+
+2017-04-03
+-) New functionality
+    *) rolling_product, rolling_central_moment, rolling_sum_stable, rolling_sd, rolling_var
+    *) Two-sided rolling time windows are now supported
+    *) Certain edge cases that produced errors (e.g. a time window with no observations in it) are now handled using the IEEE 754 constants NAN and INFINITY
+    *) Lots of small efficiency improvements
+-) Code cleanup
+    *) The code is now spread over three different source files instead of just one
+    *) Removed the abbreviations in EMA and SMA names. For example, renamed "SMA_lin" to "SMA_linear"
+    *) Renamed "SMA_eq" to "rolling_mean"
+-) Removed
+    *) "sma_eq_stable" (which should have been named "rolling_mean_stable")
+    *) the rolling moment operators, because they are trivial modification of "rolling_sum"
+    *) "rolling_quantile_eq" (which should have been named "rolling_quantile")
+    *) the Makefile, because compiling directly is really easy
+    *) error checking via assert()
+-) Changed license to GPL-2 | GPL-3
+
+
+2013-10-13
+-) Fixed typo in EMA and EMA_eq pseudo code: times[j] - times[j-1] should be divided by tau (instead of multiplied with)
+
+
+2012-12-15
+-) Fixed bug reported by Jan Sulmont in "rolling_max" and "rolling_min"
+
+
+2012-04-12
+-) Initial release
