@@ -13,7 +13,7 @@ gcc -Wall -fPIC -shared sma.c ema.c rolling.c -o libUTSOperators.so
 
 ### Compile demo via shared library
 
- Linking
+Linking
 
 ```
 gcc -Wall -L./ test.c -o test -lUTSOperators -lm

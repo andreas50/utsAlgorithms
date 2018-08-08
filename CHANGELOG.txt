@@ -1,3 +1,7 @@
+2018-08-08
+-) Added 'const' keyword to function arguments that do not change value
+
+
 2018-06-18
 -) Updated READMEs
 -) Release code on GitHub
